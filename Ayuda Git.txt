@@ -12,4 +12,4 @@ git add -A .
 git commit -am "<mensaje>"
 git push origin master
 
-git branch -D rama-fran 
+ramafran
