@@ -130,7 +130,7 @@ nav#menu {
 } */
 nav#menu a:hover {
   color: blue;
-  transform: translate(0px, 15px);
+  /* transform: translate(0px, 15px); */
 }
 
 nav#menu a {
@@ -317,5 +317,23 @@ p {
   nav#contacto {
     display: none;
   }
+nav#menu a i{
+  display: none;
+}
+nav#menu{
+ 
+  padding: 20px;
+}
+nav#menu a{
+  width: 100%;
+  border: solid 1px white;
+  
+}
+nav#menu a span{
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 7px;
+  /* font-size:30px ; */
+}
 
 }
