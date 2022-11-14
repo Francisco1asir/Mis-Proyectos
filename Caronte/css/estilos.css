@@ -284,7 +284,7 @@ p {
 
   h4 {
     background-color: black;
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .uwu {
@@ -335,5 +335,13 @@ nav#menu a span{
   padding-left: 7px;
   /* font-size:30px ; */
 }
-
+figure i{
+  color: white;
+  margin-left: 20px;
+  font-size: 50px;
+  display: bloc;
+}
+}
+figure i{
+  display: none;
 }
