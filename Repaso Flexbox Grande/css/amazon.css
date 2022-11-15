@@ -168,7 +168,7 @@ header div a:hover {
 }
 .cajas-dobles {
   min-height: 270px; /*Muy importante para evitar que la imagen se salga de la caja*/
-  width: 450px;
+  width: 300px;
   background-color: white;
   margin: 15px;
   padding: 15px;
@@ -181,8 +181,8 @@ header div a:hover {
   box-shadow: 5px 5px 18px;
 }
 .cajas-dobles img {
-  width: 200px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   /* max-width: 100%;
 max-height: 90%; */
   border-radius: 10px;
