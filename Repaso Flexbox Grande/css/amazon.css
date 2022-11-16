@@ -35,7 +35,6 @@ header div#search img {
   padding: 5px;
   /* width: 20%; */
   transform: rotate(1turn);
-
 }
 
 header nav#nav1 {
@@ -290,6 +289,9 @@ background-image: red;
 .titcir {
   position: absolute;
   padding: 10px;
+  /* background-color: red; */
+  width: 90%; /*No poner un 100% porque sale una barra de desplazamiento horizontal*/
+  height: max-content;
 }
 
 .titcir a {
@@ -343,7 +345,7 @@ main {
 }
 .cartel img {
   width: 900px;
-  height: 350px;
+  height: 380px;
 }
 .cartel {
   display: flex;
@@ -358,39 +360,50 @@ main {
 }
 .container-cuadrado {
   width: 400px;
-  height: 380px;  
+  height: 240px;
   /* background-color: RGB(19, 25, 33); */
   margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+.container-cuadrado h3{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .container-cuadrado img {
- width: 80%;
- height: 80%;
+  width: 60%;
+  height: 90%;
+  padding: 10px;
 }
-.todocir-cuadrado{
-  height: 490px; /*la altura de el texto con los cuadrados*/
+.todocir-cuadrado {
+  height: 380px; /*la altura de el texto con los cuadrados*/
   background-color: white;
   display: flex;
+
   overflow: auto;
+
+  /* overflow-y: hidden; Quitamos el scroll Y que es el vertical */
+
   margin: 15px;
 }
-.info-cuadrado{
+.info-cuadrado {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
   flex-direction: row;
   background-color: none;
   width: 100%;
-
 }
-.info-cuadrado p{
-  background-color: #CC0C39;
+.info-cuadrado p {
+  background-color: #cc0c39;
   color: white;
   border-radius: 3px;
   padding: 5px;
-  width:max-content;
+  width: max-content;
   margin-right: 5px;
 }
-.info-cuadrado h3{
-  color: #D20C39;
- 
+.info-cuadrado h3 {
+  color: #d20c39;
 }
