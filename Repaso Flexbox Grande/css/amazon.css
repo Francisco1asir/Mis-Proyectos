@@ -344,7 +344,7 @@ main {
   /* overflow: hidden; */
 }
 .cartel img {
-  width: 900px;
+  width: 1300px;
   height: 380px;
 }
 .cartel {
@@ -407,4 +407,99 @@ main {
 }
 .info-cuadrado h3 {
   color: #d20c39;
+}
+button{
+  background-color: RGB(55, 71, 90);
+  width: 100%;
+  color: white;
+  height: 50px;
+  font-size: 17px;
+  border: none;
+}
+footer{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: RGB(35, 47, 62);
+ 
+}
+
+footer article#conocenos{
+  width: 25%;
+ padding: 40px;
+
+}
+footer article#conocenos h3{
+  padding-bottom: 10px;
+  font-size: 15px;
+  color: rgb(195, 195, 195);
+}
+footer article#conocenos h2{
+ color: white;
+ padding-bottom: 10px;
+ 
+}
+footer article#ganadinero{
+  width: 25%; 
+ padding: 40px;
+}
+footer article#ganadinero h3{
+  padding-bottom: 10px;
+  font-size: 15px;
+  color: rgb(195, 195, 195);
+}
+footer article#ganadinero h2{
+ color: white;
+ padding-bottom: 10px;
+ 
+}
+footer article#pagos{
+  width: 25%;
+   padding: 40px;
+}
+footer article#pagos h3{
+  padding-bottom: 10px;
+  font-size: 15px;
+  color: rgb(195, 195, 195);
+}
+footer article#pagos h2{
+ color: white;
+ padding-bottom: 10px;
+ 
+}
+footer article#ayuda{
+  width: 25%;
+ padding: 40px;
+}
+footer article#ayuda h3{
+  padding-bottom: 10px;
+  font-size: 15px;
+  color: rgb(195, 195, 195);
+}
+footer article#ayuda h2{
+ color: white;
+ padding-bottom: 10px;
+ 
+}
+footer figure{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 90px;
+  padding-top: 50px;
+  border-top: solid RGB(58, 69, 83);
+  border-width:0.1px;
+
+}
+footer figure img{
+ 
+  width: 100px;
+  height: 30px;
+}
+footer article{
+  display: flex;
+}
+footer article h4{
+  color: white;
 }
