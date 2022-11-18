@@ -47,7 +47,7 @@
     transition: all 0.4s;
   }
   header nav#sociales a i:hover {
-    transform: scale(1.2);
+    transform: rotate(1turn);
     background-color: rgb(102, 154, 191);
   }
 
@@ -181,10 +181,12 @@ nav#ppal i{
     height: 30px;
     color: black;
     padding: 10px;
+
   }
 
   header #contacto a {
     color: black;
+    margin-right: 10px;
   }
 
   header nav#sociales {
