@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Roboto:wght@100&family=Ubuntu:wght@500&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -159,6 +160,13 @@
     text-indent: 25px;
     
 }
+nav#ppal i:hover{
+    color: yellow;
+    transform: scale(1.15);
+}
+nav#ppal i{
+    transition: .5s;
+}
 }
 
 @media screen and (min-width: 650px) {
@@ -270,7 +278,8 @@
   }
   main section article p{
     text-indent: 25px;
-    
+    font-family: estonia;
+    font-size: 25px;
 }
 }
 
@@ -307,53 +316,4 @@
     color: white;
     font-size: 20px;
   }
-  section {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-  }
-  main section article {
-    width:400px;
-    height: max-content;
-    /* background-color: red; */
-    margin-top: 10px;
-    margin-left: 10px;
-    border: solid black 1px;
-    padding: 10px;
-    border-radius: 10px;
-    display: flex;
-    flex-flow: column wrap;
-  }
-  main section article figure img {
-    width: 120px;
-    height: 120px;
-    display: flex;
-    justify-content: center;
-  }
-  main section article figure {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    /* background-color: rebeccapurple; */
-  }
-  main nav {
-    display: flex;
-    align-items: center;
-    flex-flow: row wrap;
-    background-color: RGB(255, 165, 0);
-    height: 50px;
-  }
-  main nav h1 {
-    color: white;
-  }
-  main nav h1 {
-    width: 70%;
-  }
-  main section article h2{
-    color: blue;
-  }
-  main section article p{
-    text-indent: 25px;
-    
-}
-}
+ }
