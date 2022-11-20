@@ -10,7 +10,10 @@ body {
   background-repeat: no-repeat;
   font-family: "Calibri";
 }
-
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
 /* main { 
    background-color: grey;
   background-image: url(../img/anillosdelpoder.jpg);
@@ -269,7 +272,7 @@ background-image: red;
 .capa {
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
-  top: -100%;
+  /* top: -100%; */
   left: 0;
   height: 100%;
   width: 100%;
@@ -306,7 +309,7 @@ background-image: red;
   background-image: url(../img/anillosdelpoder.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment:fixed;
   clip-path: polygon(0 0, 100% 0, 100% 95%, 50% 100%, 0 95%);
   padding-bottom: 150px;
 }
@@ -423,9 +426,12 @@ footer{
   background-color: RGB(35, 47, 62);
  
 }
+/* footer nav#allfooter{
+  display: flex;
+} */
 
 footer nav#conocenos{
-  width: 25%;
+  width: 250px;
  padding: 40px;
  display: flex;
    flex-flow: column wrap;
@@ -458,9 +464,10 @@ footer nav#conocenos h2{
 footer nav#ganadinero{
    display: flex;
    flex-flow: column wrap;
-  width: 25%; 
+   width: 250px;
  padding: 40px;
 }
+
 footer nav#ganadinero h3{
   padding-bottom: 10px;
   font-size: 15px;
@@ -474,7 +481,7 @@ footer nav#ganadinero h2{
 footer nav#pagos{
   display: flex;
   flex-flow: column wrap;
-  width: 25%;
+  width: 250px;
    padding: 40px;
 }
 footer nav#pagos h3{
@@ -490,8 +497,8 @@ footer nav#pagos h2{
 footer nav#ayuda{
   display: flex;
   flex-flow: column wrap;
-  width: 25%;
- padding: 40px;
+  width: 250px;
+   padding: 40px;
 }
 footer nav#ayuda h3{
   padding-bottom: 10px;
@@ -528,6 +535,7 @@ footer nav#paises{
   margin-bottom: 20px;
 
 }
+
 footer nav h4{
   color: white;
   margin-right: 15px;
@@ -544,18 +552,67 @@ footer section{
   width: 100%;
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-start;
+  justify-content:center;
   align-items: center;
 
 }
 footer section article{
   color: rgba(255, 255, 255, 0.801);
   margin-right: 65px;
-  width: 15%;
+  width: 250px;
   font-size: 17px;
   margin: 12px;
- 
+  
+  }
+section#politica {
+  color: white;
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 30px;
 }
+section#politica h4{
+margin-right: 20px;
+}
+section#politica h5{
+  margin-right: 20px;
+  }
+
 footer section article h6{
   color: RGB(140, 147, 153);
+}
+footer marquee{
+  color: white;
+  background-color: RGB(19, 26, 34);
+  width: 100%;
+  text-align: center;
+}
+@media (max-width:450px) {
+  .cajas{
+    min-height: 150px; 
+    width: 150px;
+ 
+    
+  }
+  .cajas img {
+    width: 100%;
+    height: 120px;
+  
+  }
+  .cajas h2 {
+    font-size: 20px;
+  }
+  .cajas-dobles {
+    min-height: 150px; 
+    width: 250px;
+    
+  }
+  .cajas-dobles img {
+    width: 100px;
+    height: 120px;
+  
+  }
+  .cajas-dobles h2 {
+    width: 100%;
+    font-size: 25px;
+  }
 }
