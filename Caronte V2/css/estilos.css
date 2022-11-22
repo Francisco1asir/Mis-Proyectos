@@ -17,6 +17,7 @@
     justify-content: space-around;
     align-items: center;
     background-color: black;
+    
   }
 
   header a {
@@ -160,13 +161,8 @@
     text-indent: 25px;
     
 }
-nav#ppal i:hover{
-    color: yellow;
-    transform: scale(1.15);
-}
-nav#ppal i{
-    transition: .5s;
-}
+
+
 }
 
 @media screen and (min-width: 650px) {
@@ -283,6 +279,21 @@ nav#ppal i{
     font-family: estonia;
     font-size: 25px;
 }
+header nav#ppal a i{
+transition: .5s;
+}
+header nav#ppal a:hover i {
+  color: yellow;
+  transform: rotate(1turn);
+}
+header nav#ppal a:hover span {
+  color: green;
+  background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(236,255,0,1) 50%, rgba(255,0,0,1) 100%);
+  -webkit-background-clip: text;
+  color: transparent;  
+  transition: all .5s;
+ 
+}
 }
 
 @media screen and (min-width: 900px) {
@@ -302,6 +313,7 @@ nav#ppal i{
   header nav#ppal {
     width: 80%;
   }
+
   header figure {
     width: 20%;
     display: flex;
