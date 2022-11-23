@@ -35,7 +35,6 @@ body {
     } */
 
 
-
 header nav#nav1 {
   /* background-color: red;  */
   display: flex;
@@ -153,7 +152,7 @@ header div a:hover {
   margin-bottom: 20px;
 }
 .cajas {
-  min-height: 270px; /*Muy importante para evitar que la imagen se salga de la caja*/
+  min-height: max-content; /*Muy importante para evitar que la imagen se salga de la caja*/
   width: 300px;
   background-color: white;
   margin: 15px;
