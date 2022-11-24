@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="./css/hover.css">
     <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="shortcut icon" href="./img/icono.jpg" type="image/x-icon">
+
 
     <title>Mi Portfolio</title>
 </head>
@@ -14,14 +17,14 @@
 <body>
     <header>
         <nav>
-            <a href="#Inicio">Inicio</a>
-            <a href="#Estudios">Estudios</a>
-            <a href="#Sobre">Sobre mí</a>
-            <a href="#Proyectos">Proyectos</a>
-            <a href="#Aficiones">Aficiones</a>
+            <a href="#Inicio" class="hvr-buzz">Inicio</a>
+            <a href="#Estudios" class="hvr-buzz">Estudios</a>
+            <a href="#Sobre" class="hvr-buzz">Sobre mí</a>
+            <a href="#Proyectos" class="hvr-buzz">Proyectos</a>
+            <a href="#Aficiones" class="hvr-buzz">Aficiones</a>
         </nav>
         <div class="titulo">
-            <h1>Mi Portfolio</h1>
+            <h1 class="hvr-rotate">Mi Portfolio</h1>
             <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
             <a href="https://www.twitch.tv/franh90p"><i class="fa-brands fa-twitch"></i></a>
             <a href="https://www.instagram.com/im_the90p/"><i class="fa-brands fa-instagram"></i></a>
@@ -34,9 +37,9 @@
         </svg> -->
     </header>
     <main>
-        
-        <button onclick="lightMode()">LightMode</button>
-        <button onclick="darkMode()">Darkmode</button>
+        <button onclick="lightMode()"><i class="fa-solid fa-sun"></i></button>
+        <button onclick="darkMode()"><i class="fa-solid fa-moon"></i></button>
+
         <section>
             <article>
                 <a name="Inicio"></a>
@@ -91,20 +94,19 @@
 
     </main>
     <footer></footer>
-   
 
     <script>
 
         function darkMode() {
-        var element = document.body;
-        element.className = "claro";
-      
+            var element = document.body;
+            element.className = "claro";
+
         }
         function lightMode() {
-        var element = document.body;
-        element.className = "oscuro";
-     
+            var element = document.body;
+            element.className = "oscuro";
         }
+
     </script>
 
     <!-- <script type="text/javascript">
