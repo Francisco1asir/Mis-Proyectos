@@ -14,7 +14,7 @@ import { Cloud } from './pages/Servicios/pages/Cloud';
 import { Mediafrank } from './pages/Proyectos/pages/mediafrank';
 import { Amafron } from './pages/Proyectos/pages/amafron';
 import { Caronte } from './pages/Proyectos/pages/caronte';
-import { Ordenadores } from './pages/PcFromponentes/ordenadores';
+import { Ordenadores } from './pages/PcFromponentes/OrdenadoresCard';
 // import { Container } from 'react-bootstrap';
 
 
