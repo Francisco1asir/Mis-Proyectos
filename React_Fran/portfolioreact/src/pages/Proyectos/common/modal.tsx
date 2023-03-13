@@ -21,14 +21,14 @@ function Msg() {
     <>
       <div id="proyects">
         <Button variant="primary" onClick={handleShowAmafron}>
-          <img src={afc} />
+          <h1>hola</h1>
         </Button>
         <Modal show={showAmafron} onHide={handleCloseAmafron}>
           <h1>Amafron</h1>
         </Modal>
 
         <Button variant="primary" onClick={handleShowMediaFrank}>
-          <img src={mfc} />
+        <h1>holaa</h1>
         </Button>
         <Modal show={showMediaFrank} onHide={handleCloseMediaFrank}>
           <h1>Meidafrnk</h1>

@@ -14,9 +14,6 @@ export default function ServiciosPage() {
     <p>Si estás buscando mejorar tu presencia en línea, ya sea a través de un sitio web, una aplicación móvil u otro tipo de solución digital, has llegado al lugar indicado. Aquí encontrarás una amplia variedad de servicios y soluciones digitales que te ayudarán a crear la presencia en línea que tu proyecto o negocio necesita para alcanzar el éxito.</p>
     <p>Por eso en esta sección se presentan los servicios que Francisco puede proporcionar a su empresa:</p>
       <ImageList>
-        {/* <ImageListItem key="Subheader" cols={2}>
-          <ListSubheader component="div">December</ListSubheader>
-        </ImageListItem> */}
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
             <img

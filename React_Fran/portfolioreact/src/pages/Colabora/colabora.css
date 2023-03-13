@@ -4,8 +4,9 @@ section#colaborapage{
     align-items: center;
 }
 #colabora {
-    background-color: grey;
-    animation: gradient 6s ease infinite;
+    background-color: RGB(43, 47, 54);
+    box-shadow: 7px 7px 10px 10px rgba(0, 0, 0, 0.494);
+    /* animation: gradient 6s ease infinite; */
     width: 38%;
     border-radius: 5px;
     margin-top: 50px;
